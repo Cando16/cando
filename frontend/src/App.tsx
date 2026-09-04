@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useEditor, EditorContent } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
 import { Settings, Loader2, Upload } from 'lucide-react';
@@ -167,7 +168,7 @@ export default function App() {
               <h3 className="font-medium text-lg mb-2 border-b pb-2">Artifacts Cleared</h3>
               {result.artifacts.length === 0 ? <p className="text-gray-500">No hidden artifacts found.</p> : (
                 <ul className="list-disc pl-5">
-                  {result.artifacts.map((a, i) => (
+                  {result.artifacts.map((a: any, i: number) => (
                     <li key={i}>{a.count}x {a.type}</li>
                   ))}
                 </ul>
