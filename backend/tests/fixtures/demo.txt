@@ -1,0 +1,8 @@
+Furthermore, it is important to note that the rotary kiln operates at 520 °C.
+This highlights the significance of robust process control. The process handles
+4,420 kg/day of concentrated stillage (Smith, 2025). Moreover, the leaching step
+uses H2SO4 at 2.5 bar, achieving an efficiency of η = 0.87.
+
+References
+Smith, J. (2025) Thermal processing of agricultural residues. 2nd edn. Harare:
+University Press.
